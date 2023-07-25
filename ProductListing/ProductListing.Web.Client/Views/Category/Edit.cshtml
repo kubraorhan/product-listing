@@ -1,0 +1,10 @@
+﻿@model ProductListing.Web.Client.Models.CategoryViewModels.CategoryCEViewModel
+
+@using (Html.BeginForm())
+{
+
+    @Html.HiddenFor(m => m.Id )
+    @Html.LabelFor( m => m.Name)
+    @Html.TextBoxFor( m => m.Name)
+    <button>Kaydet</button>
+}

@@ -1,0 +1,14 @@
+﻿@model ProductListing.Data.Domain.Product
+
+<p>Aşağıda bilgileri bulunan kaydı silmek istediğine emin misin?</p>
+
+<p>Adı: @Model.Name</p>
+<p>Kategori Adı: @Model.Category.Name</p>
+
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(p => p.Id)
+    <button> Evet eminim</button>
+    <a href="/Product/Index">Vazgeç</a>
+}

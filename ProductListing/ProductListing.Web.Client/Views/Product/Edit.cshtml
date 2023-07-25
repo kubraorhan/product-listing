@@ -1,0 +1,19 @@
+﻿@model ProductListing.Web.Client.Models.ProductViewModels.ProductCEViewModel
+
+@using (Html.BeginForm())
+{
+
+    @Html.HiddenFor(m => m.Id )
+    @Html.LabelFor( m => m.Name)
+    @Html.TextBoxFor( m => m.Name)
+    
+    @Html.LabelFor( m => m.CategoryId)
+    @Html.DropDownListFor( m => m.CategoryId,Model.CategoryList)
+
+
+    @Html.LabelFor( m => m.Details)
+    @Html.TextBoxFor( m => m.Details)
+
+    <button>Kaydet</button>
+    <a href="/Product/Index">Vazgeç</a>
+}

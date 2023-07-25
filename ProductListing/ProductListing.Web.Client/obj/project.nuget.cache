@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5eiiyLqA7febbgJPRmQEtGBGr7qKYoscJjRwaMBeZpwDWIZ2kMztirvT9UOEjYhmltmVCG5CkIgE+6WmFM8X/g==",
+  "dgSpecHash": "E38DKYhA6mqWM5bXj3dv806j+sqKb+qcMqw4QLhgF4APZpX+IivGf39DBIsvqVqmRYzO9SwjpIYvFLKcwdhdnw==",
   "success": true,
   "projectFilePath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\bootstrap\\5.3.0\\bootstrap.5.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

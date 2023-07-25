@@ -1,0 +1,31 @@
+﻿@model List<ProductListing.Data.Domain.Category>
+
+<a class="btn btn-sm btn-primary" asp-action="create" asp-controller="Category">Kategori Ekle </a>
+<table class="table">
+    <thead> 
+        <tr>
+            <th> İşlemler</th>
+            <th> Adı</th>
+            <th> Ürün Sayısı</th>
+        </tr>
+    </thead>
+        <tbody>
+            @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-sm btn-warning" asp-action="edit" asp-controller="category" asp-route-id="@item.Id">Güncelle </a>
+                    <a class="btn btn-sm btn-danger" asp-action="delete" asp-controller="category" asp-route-id="@item.Id">Sil </a>
+                </td>
+
+                <td>
+                    @Html.DisplayFor(p => item.Name)
+                </td>
+                <td>
+                    @item.Products.Count()
+                </td>
+            </tr>
+        }
+        </tbody>
+
+</table>
