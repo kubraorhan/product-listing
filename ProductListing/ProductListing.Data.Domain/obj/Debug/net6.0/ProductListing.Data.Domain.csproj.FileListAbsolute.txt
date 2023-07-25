@@ -1,0 +1,12 @@
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\bin\Debug\net6.0\ProductListing.Data.Domain.deps.json
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\bin\Debug\net6.0\ProductListing.Data.Domain.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\bin\Debug\net6.0\ProductListing.Data.Domain.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\ProductListing.Data.Domain.csproj.AssemblyReference.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\ProductListing.Data.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\ProductListing.Data.Domain.AssemblyInfoInputs.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\ProductListing.Data.Domain.AssemblyInfo.cs
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\ProductListing.Data.Domain.csproj.CoreCompileInputs.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\ProductListing.Data.Domain.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\refint\ProductListing.Data.Domain.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\ProductListing.Data.Domain.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.Domain\obj\Debug\net6.0\ref\ProductListing.Data.Domain.dll

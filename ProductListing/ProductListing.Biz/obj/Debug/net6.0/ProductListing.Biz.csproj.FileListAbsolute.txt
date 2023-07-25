@@ -1,0 +1,17 @@
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\bin\Debug\net6.0\ProductListing.Biz.deps.json
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\bin\Debug\net6.0\ProductListing.Biz.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\bin\Debug\net6.0\ProductListing.Biz.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\bin\Debug\net6.0\ProductListing.Data.DAL.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\bin\Debug\net6.0\ProductListing.Data.Domain.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\bin\Debug\net6.0\ProductListing.Data.DAL.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\bin\Debug\net6.0\ProductListing.Data.Domain.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ProductListing.Biz.csproj.AssemblyReference.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ProductListing.Biz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ProductListing.Biz.AssemblyInfoInputs.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ProductListing.Biz.AssemblyInfo.cs
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ProductListing.Biz.csproj.CoreCompileInputs.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ProductListing.Biz.csproj.CopyComplete
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ProductListing.Biz.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\refint\ProductListing.Biz.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ProductListing.Biz.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Biz\obj\Debug\net6.0\ref\ProductListing.Biz.dll

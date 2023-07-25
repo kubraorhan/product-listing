@@ -1,0 +1,15 @@
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\bin\Debug\net6.0\ProductListing.Data.DAL.deps.json
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\bin\Debug\net6.0\ProductListing.Data.DAL.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\bin\Debug\net6.0\ProductListing.Data.DAL.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\bin\Debug\net6.0\ProductListing.Data.Domain.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\bin\Debug\net6.0\ProductListing.Data.Domain.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ProductListing.Data.DAL.csproj.AssemblyReference.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ProductListing.Data.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ProductListing.Data.DAL.AssemblyInfoInputs.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ProductListing.Data.DAL.AssemblyInfo.cs
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ProductListing.Data.DAL.csproj.CoreCompileInputs.cache
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ProductListing.Data.DAL.csproj.CopyComplete
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ProductListing.Data.DAL.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\refint\ProductListing.Data.DAL.dll
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ProductListing.Data.DAL.pdb
+C:\Workspaces\Kubra\ProductListing\ProductListing.Data.DAL\obj\Debug\net6.0\ref\ProductListing.Data.DAL.dll
