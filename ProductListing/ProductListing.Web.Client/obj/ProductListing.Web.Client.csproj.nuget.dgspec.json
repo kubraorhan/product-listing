@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj": {}
+    "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj": {}
   },
   "projects": {
-    "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj": {
+    "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj",
+        "projectUniqueName": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj",
         "projectName": "ProductListing.Biz",
-        "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Biz\\obj\\",
+        "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj",
+        "packagesPath": "C:\\Users\\bebex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Biz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bebex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj": {
-                "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj"
+              "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj": {
+                "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj"
               },
-              "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
-                "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
+              "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
+                "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj": {
+    "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj",
         "projectName": "ProductListing.Data.DAL",
-        "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\obj\\",
+        "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj",
+        "packagesPath": "C:\\Users\\bebex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bebex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
-                "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
+              "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
+                "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
               }
             }
           }
@@ -131,21 +131,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
+    "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj",
         "projectName": "ProductListing.Data.Domain",
-        "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\obj\\",
+        "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj",
+        "packagesPath": "C:\\Users\\bebex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bebex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,21 +186,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj": {
+    "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
+        "projectUniqueName": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
         "projectName": "ProductListing.Web.Client",
-        "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\obj\\",
+        "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
+        "packagesPath": "C:\\Users\\bebex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Web.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bebex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -208,21 +208,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj": {
-                "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj"
+              "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj": {
+                "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj"
               },
-              "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj": {
-                "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj"
+              "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj": {
+                "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj"
               },
-              "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
-                "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
+              "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
+                "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
               }
             }
           }
@@ -237,6 +237,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AspNetCore.Unobtrusive.Ajax": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -275,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

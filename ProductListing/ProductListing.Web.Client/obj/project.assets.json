@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AspNetCore.Unobtrusive.Ajax/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/AspNetCore.Unobtrusive.Ajax.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AspNetCore.Unobtrusive.Ajax.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -627,6 +646,47 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.Extensions.Logging/7.0.0": {
@@ -1482,6 +1542,30 @@
     }
   },
   "libraries": {
+    "AspNetCore.Unobtrusive.Ajax/2.0.0": {
+      "sha512": "hFzcqL7PWw1shrtFlm/2vUlToGruTXSijq60M4FI+0C5KKI+q2oRk0InPcO8jyuC9/nEtsLX20D1sDwhLNFeNw==",
+      "type": "package",
+      "path": "aspnetcore.unobtrusive.ajax/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcore.unobtrusive.ajax.2.0.0.nupkg.sha512",
+        "aspnetcore.unobtrusive.ajax.nuspec",
+        "icon.png",
+        "lib/net5.0/AspNetCore.Unobtrusive.Ajax.dll",
+        "lib/net5.0/AspNetCore.Unobtrusive.Ajax.xml",
+        "lib/net6.0/AspNetCore.Unobtrusive.Ajax.dll",
+        "lib/net6.0/AspNetCore.Unobtrusive.Ajax.xml",
+        "lib/netcoreapp2.1/AspNetCore.Unobtrusive.Ajax.dll",
+        "lib/netcoreapp2.1/AspNetCore.Unobtrusive.Ajax.xml",
+        "lib/netcoreapp2.2/AspNetCore.Unobtrusive.Ajax.dll",
+        "lib/netcoreapp2.2/AspNetCore.Unobtrusive.Ajax.xml",
+        "lib/netcoreapp3.0/AspNetCore.Unobtrusive.Ajax.dll",
+        "lib/netcoreapp3.0/AspNetCore.Unobtrusive.Ajax.xml",
+        "lib/netcoreapp3.1/AspNetCore.Unobtrusive.Ajax.dll",
+        "lib/netcoreapp3.1/AspNetCore.Unobtrusive.Ajax.xml"
+      ]
+    },
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -2122,6 +2206,52 @@
         "microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "sha512": "0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.1": {
+      "sha512": "EKfRiel8SvFCs2rGVL5NxOEqWvo+ZXZE9VR6w6NsPJQVOB9rU8CQ9w6NjYTLMvMhCzu9XfX4OtPGxGpCRdbDqg==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.props",
+        "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.props",
+        "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "lib/net461/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "microsoft.extensions.fileproviders.embedded.6.0.1.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.nuspec",
+        "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
     },
     "Microsoft.Extensions.Logging/7.0.0": {
@@ -4011,6 +4141,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AspNetCore.Unobtrusive.Ajax >= 2.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.9",
@@ -4021,19 +4152,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\bebex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
+      "projectUniqueName": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
       "projectName": "ProductListing.Web.Client",
-      "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Web.Client\\obj\\",
+      "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Web.Client\\ProductListing.Web.Client.csproj",
+      "packagesPath": "C:\\Users\\bebex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Web.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bebex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4041,21 +4172,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj": {
-              "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj"
+            "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj": {
+              "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Biz\\ProductListing.Biz.csproj"
             },
-            "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj": {
-              "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj"
+            "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj": {
+              "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj"
             },
-            "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
-              "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
+            "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
+              "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
             }
           }
         }
@@ -4070,6 +4201,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AspNetCore.Unobtrusive.Ajax": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.9, )"
@@ -4108,7 +4243,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

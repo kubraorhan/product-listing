@@ -15,7 +15,7 @@ namespace ProductListing.Web.Client.Controllers
         public IActionResult Index()
         {
             Db.Products.ToList();
-            return View();
+            return View(false);
         }
     }
 }

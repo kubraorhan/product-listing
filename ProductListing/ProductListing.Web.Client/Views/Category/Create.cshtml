@@ -1,9 +1,19 @@
 ﻿@model ProductListing.Web.Client.Models.CategoryViewModels.CategoryCEViewModel 
 
 @using (Html.BeginForm()) {
+<div class="container"></div>
+    <div class="form">
+        @Html.HiddenFor(m => m.Id )
+        <div class="row">
 
-    @Html.HiddenFor(m => m.Id )
-    @Html.LabelFor( m => m.Name)
-    @Html.TextBoxFor( m => m.Name)
-    <button>Kaydet</button>
+            <div class="col-md-4">
+            @Html.LabelFor( m => m.Name, new {@class="form-label"})
+            @Html.TextBoxFor( m => m.Name, new {@class="form-control"})
+                <button class="btn btn-md btn-primary mt-2">Kategori Ekle</button>
+
+            </div>
+
+        </div>
+
+    </div>
 }

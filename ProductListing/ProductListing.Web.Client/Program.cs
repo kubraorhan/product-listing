@@ -9,7 +9,7 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<EFContext>(opt =>
 {
-    opt.UseSqlServer("Data Source=.;Initial Catalog=ProductListingDB;User ID=sa;Password=sqlsa;MultipleActiveResultSets=True;Encrypt=False", opt =>
+    opt.UseSqlServer("Data Source=.\\SQLEXPRESS;Initial Catalog=ProductListingDB;User ID=sa;Password=sqlsa;MultipleActiveResultSets=True;Encrypt=False", opt =>
     {
         opt.EnableRetryOnFailure();
     });

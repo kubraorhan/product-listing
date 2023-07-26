@@ -1,31 +1,41 @@
 ﻿@model List<ProductListing.Data.Domain.Category>
 
-<a class="btn btn-sm btn-primary" asp-action="create" asp-controller="Category">Kategori Ekle </a>
-<table class="table">
-    <thead> 
-        <tr>
-            <th> İşlemler</th>
-            <th> Adı</th>
-            <th> Ürün Sayısı</th>
-        </tr>
-    </thead>
-        <tbody>
-            @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    <a class="btn btn-sm btn-warning" asp-action="edit" asp-controller="category" asp-route-id="@item.Id">Güncelle </a>
-                    <a class="btn btn-sm btn-danger" asp-action="delete" asp-controller="category" asp-route-id="@item.Id">Sil </a>
-                </td>
+<div class="row">
+    <div class="card col-md-6">
+        <div class="card-body ">
+            <table class="table">
+                <thead class="table-light">
+                    <tr>
+                        <th> Adı</th>
+                        <th> Ürün Sayısı</th>
+                        <th> İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody class="table">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
 
-                <td>
-                    @Html.DisplayFor(p => item.Name)
-                </td>
-                <td>
-                    @item.Products.Count()
-                </td>
-            </tr>
-        }
-        </tbody>
 
-</table>
+                            <td>
+                                @Html.DisplayFor(p => item.Name)
+                            </td>
+                            <td>
+                                @item.Products.Count()
+                            </td>
+
+                            <td>
+                                <a class="btn btn-sm btn-warning" asp-action="edit" asp-controller="category" asp-route-id="@item.Id">Güncelle </a>
+                                <a class="btn btn-sm btn-danger text-dark" asp-action="delete" asp-controller="category" asp-route-id="@item.Id">Sil </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+  </div>
+
+

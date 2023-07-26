@@ -1,5 +1,7 @@
 ﻿@model ProductListing.Data.Domain.Product
 
+<div class="container">
+
 <p>Aşağıda bilgileri bulunan kaydı silmek istediğine emin misin?</p>
 
 <p>Adı: @Model.Name</p>
@@ -9,6 +11,8 @@
 @using (Html.BeginForm())
 {
     @Html.HiddenFor(p => p.Id)
-    <button> Evet eminim</button>
-    <a href="/Product/Index">Vazgeç</a>
+    <button class="btn btn-primary mt-2"> Evet eminim</button>
+    <a class="btn btn-danger mt-2" asp-action="index" asp-controller="product"> Vazgeç</a>
 }
+
+</div>

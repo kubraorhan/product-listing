@@ -1,12 +1,17 @@
 ﻿@model ProductListing.Data.Domain.Category
 
+<div class="container">
+
 <p>Aşağıda bilgileri bulunan kaydı silmek istediğine emin misin?</p>
 
 <p>Adı: @Model.Name</p>
 
 @using (Html.BeginForm())
 {
-    @Html.HiddenFor(p => p.Id)
-    <button> Evet eminim</button>
-    <a href="/Category/Index">Vazgeç</a>
+        <div class="form">
+            @Html.HiddenFor(p => p.Id)
+            <button class="btn btn-primary mt-2"> Evet eminim</button>
+            <a class="btn btn-danger mt-2" asp-action="index" asp-controller="category">Vazgeç</a>
+        </div>
 }
+</div>

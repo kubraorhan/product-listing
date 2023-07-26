@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rugbd4p/BVSJ6djVStfgZ5VpUXgbzCHeqh6VbG8jPk+7zws4Z0RgH4BZoBmE9v7UV9uZRPCNxIN0A75c78NkeA==",
+  "dgSpecHash": "8OoLAkfG83JVwlees7sNU1ji35gy8vyyrmkbObwC9GIZS2ah13ag7qjqzoQZNRNK9vGpTrhAJymumq+kisyXLA==",
   "success": true,
-  "projectFilePath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj",
+  "projectFilePath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

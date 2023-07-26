@@ -707,19 +707,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\bebex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj",
       "projectName": "ProductListing.Data.DAL",
-      "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.DAL\\obj\\",
+      "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\ProductListing.Data.DAL.csproj",
+      "packagesPath": "C:\\Users\\bebex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bebex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -733,8 +733,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
-              "projectPath": "C:\\Workspaces\\Kubra\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
+            "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj": {
+              "projectPath": "C:\\Users\\bebex\\source\\repos\\kubraorhan\\product-listing\\ProductListing\\ProductListing.Data.Domain\\ProductListing.Data.Domain.csproj"
             }
           }
         }
@@ -774,7 +774,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

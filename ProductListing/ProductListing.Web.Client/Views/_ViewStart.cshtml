@@ -1,3 +1,8 @@
 ﻿@{
-    Layout = "_Layout";
+    var IsAuthenticated = false;
+
+    if (IsAuthenticated)
+        Layout = "Shared/_Layout.cshtml";
+    else
+        Layout = "Shared/_LayoutLanding.cshtml";
 }

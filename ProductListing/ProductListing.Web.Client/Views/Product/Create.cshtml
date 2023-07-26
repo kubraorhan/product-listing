@@ -1,16 +1,26 @@
 ﻿@model ProductListing.Web.Client.Models.ProductViewModels.ProductCEViewModel 
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
 
     @Html.HiddenFor(m => m.Id )
-    @Html.LabelFor( m => m.Name)
-    @Html.TextBoxFor( m => m.Name)
 
-    @Html.LabelFor( m => m.CategoryId)
-    @Html.DropDownListFor( m => m.CategoryId,Model.CategoryList)
-
-
-    @Html.LabelFor( m => m.Details)
-    @Html.TextBoxFor( m => m.Details)
-    <button class="btn btn-sm btn-primary">Kaydet</button>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor( m => m.Name ,new {@class="form-label"})
+            @Html.TextBoxFor( m => m.Name, new { @class = "form-control"})
+        </div>
+        <div class="col-md-3">
+            @Html.LabelFor( m => m.CategoryId ,new {@class="form-label"})
+            @Html.DropDownListFor( m => m.CategoryId,Model.CategoryList, new { @class = "form-control"})
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            @Html.LabelFor( m => m.Details,new {@class="form-label"})
+            @Html.TextBoxFor( m => m.Details,new {@class="form-control"})
+        </div>
+    </div>
+    <button class="btn btn-sm btn-primary mt-2">Kaydet</button>
 }
+
