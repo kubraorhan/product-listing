@@ -4,7 +4,7 @@
     <div class="card col-md-6">
         <div class="card-body ">
             <table class="table">
-                <thead class="table-light">
+                <thead class="table">
                     <tr>
                         <th> Adı</th>
                         <th> Ürün Sayısı</th>
@@ -15,9 +15,7 @@
                     @foreach (var item in Model)
                     {
                         <tr>
-
-
-                            <td>
+                             <td>
                                 @Html.DisplayFor(p => item.Name)
                             </td>
                             <td>
@@ -36,6 +34,6 @@
         </div>
 
     </div>
-  </div>
-
+</div>
+<a class="btn btn-sm btn-primary" asp-action="create" asp-controller="Category">Kategori Ekle</a>
 

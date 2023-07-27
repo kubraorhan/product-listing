@@ -14,8 +14,8 @@ namespace ProductListing.Web.Client.Controllers
 
         public IActionResult Index()
         {
-            Db.Products.ToList();
-            return View(false);
+            var ProductList = Db.Products.ToList();
+            return View(ProductList);
         }
     }
 }
